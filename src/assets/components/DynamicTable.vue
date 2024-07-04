@@ -47,6 +47,16 @@
         </tr>
       </tbody>
     </table>
+
+    <div v-if="showModal" class="modal">
+      <div class="modal-content">
+        <h3>Congratulations!</h3>
+        <p>You guessed the monster in {{ rows.length }} attempts.</p>
+        <img :src="getMonsterIcon(randomMonster.name)" alt="Monster Icon" class="monster-icon">
+        <p>The monster is: {{ randomMonster.name }}</p>
+        <button @click="startNewGame">Start New Game</button>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -67,7 +77,8 @@ export default {
       showSuggestions: false,
       randomMonster: {},
       monsterRevealed: false,
-      cellHeight: '60px' // Adjust as needed for uniform cell height
+      cellHeight: '60px', // Adjust as needed for uniform cell height
+      showModal: false // Track if the modal is displayed
     };
   },
   computed: {
@@ -99,6 +110,10 @@ export default {
         this.rows.push(selectedMonster);
         this.guessedMonsters.push(selectedMonster.name.toLowerCase());
         this.inputValue = '';
+        // Check if the guessed monster is the correct one
+        if (selectedMonster.name === this.randomMonster.name) {
+          this.showModal = true;
+        }
       } else {
         alert("Please select a monster name from the suggestions, or you have already guessed this monster.");
       }
@@ -127,46 +142,44 @@ export default {
       return this.suggestions[randomIndex];
     },
     getCellClass(guessedAttribute, chosenAttribute) {
-    // Ensure both are arrays
-    if (!Array.isArray(guessedAttribute)) guessedAttribute = [guessedAttribute];
-    if (!Array.isArray(chosenAttribute)) chosenAttribute = [chosenAttribute];
+      // Ensure both are arrays
+      if (!Array.isArray(guessedAttribute)) guessedAttribute = [guessedAttribute];
+      if (!Array.isArray(chosenAttribute)) chosenAttribute = [chosenAttribute];
 
-    // Sort the arrays
-    guessedAttribute.sort((a, b) => (a > b ? 1 : -1));
-    chosenAttribute.sort((a, b) => (a > b ? 1 : -1));
+      // Sort the arrays
+      guessedAttribute.sort((a, b) => (a > b ? 1 : -1));
+      chosenAttribute.sort((a, b) => (a > b ? 1 : -1));
 
-    console.log("chosen")
-    console.log(chosenAttribute)
-    console.log("guess")
-    console.log(guessedAttribute)
+      console.log("chosen")
+      console.log(chosenAttribute)
+      console.log("guess")
+      console.log(guessedAttribute)
 
-    if (this.arraysEqual(guessedAttribute, chosenAttribute)) {
-        return 'green-background';
-    } else if (this.checkIntersection(guessedAttribute, chosenAttribute)) {
-        return 'orange-background';
-    } else {
-        return "";
-    }
+      if (this.arraysEqual(guessedAttribute, chosenAttribute)) {
+          return 'green-background';
+      } else if (this.checkIntersection(guessedAttribute, chosenAttribute)) {
+          return 'orange-background';
+      } else {
+          return "";
+      }
     },
 
     arraysEqual(arr1, arr2) {
-        if (arr1.length !== arr2.length) return false;
-        for (let i = 0; i < arr1.length; i++) {
-            if (arr1[i] !== arr2[i]) return false;
-        }
-        return true;
+      if (arr1.length !== arr2.length) return false;
+      for (let i = 0; i < arr1.length; i++) {
+          if (arr1[i] !== arr2[i]) return false;
+      }
+      return true;
     },
 
     checkIntersection(a, b) {
-        for (let i = 0; i < a.length; i++) {
-            if (b.includes(a[i])) {
-                return true;
-            }
-        }
-        return false;
+      for (let i = 0; i < a.length; i++) {
+          if (b.includes(a[i])) {
+              return true;
+          }
+      }
+      return false;
     },
-
-
 
     revealMonster() {
       this.monsterRevealed = true;
@@ -183,7 +196,7 @@ export default {
         // Fallback to unknown.png if image for monster doesn't exist
         imagePath = unknownImage;
       }
-      
+
       return {
         backgroundImage: `url(${imagePath})`,
         backgroundSize: 'cover',
@@ -191,6 +204,20 @@ export default {
         textShadow: '2px 2px 5px black', // Adjusted text shadow
         height: this.cellHeight // Set cell height equal to specified height
       };
+    },
+    getMonsterIcon(name) {
+      const formattedName = this.formatMonsterName(name);
+      let imagePath;
+      try {
+        imagePath = require(`../icons/${formattedName}.png`);
+      } catch (error) {
+        imagePath = unknownImage;
+      }
+      return imagePath;
+    },
+    startNewGame() {
+      this.showModal = false;
+      this.newGuess();
     },
     newGuess() {
       this.rows = []; // Clear the rows array
@@ -347,5 +374,52 @@ th, td {
 .new-guess-button:hover {
   background-color: #218838; /* Darker green on hover */
 }
-</style>
 
+/* Modal styles */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.modal-content h3 {
+  margin: 0 0 20px;
+}
+
+.modal-content p {
+  margin: 10px 0;
+}
+
+.monster-icon {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+.modal-content button {
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.modal-content button:hover {
+  background-color: #218838;
+}
+</style>
