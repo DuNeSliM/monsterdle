@@ -1,0 +1,1267 @@
+[
+  {
+    "name": "Wind Serpent Ibushi",
+    "type": "Elder Dragon",
+    "elements": "Dragon",
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "iconColor": [
+      "Blue",
+      "Purple",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 3068,
+    "max_size": 3068,
+    "min_size": 3068
+  },
+  {
+    "name": "Thunder Serpent Narwa",
+    "type": "Elder Dragon",
+    "elements": "Thunder",
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ],
+    "iconColor": [
+      "Gray",
+      "Yellow",
+      "Brown"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 3875,
+    "max_size": 3875,
+    "min_size": 3875
+  },
+  {
+    "name": "Narwa the Allmother",
+    "type": "Elder Dragon",
+    "elements": "Thunder",
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ],
+    "iconColor": [
+      "Purple",
+      "Gray",
+      "Blue",
+      "Yellow"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 3875,
+    "max_size": 3875,
+    "min_size": 3875
+  },
+  {
+    "name": "Apex Rathian",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Pink",
+      "Red",
+      "Blue",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 2299,
+    "max_size": 2299,
+    "min_size": 2299
+  },
+  {
+    "name": "Apex Rathalos",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Gray",
+      "Red",
+      "Pink",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 1799,
+    "max_size": 1799,
+    "min_size": 1799
+  },
+  {
+    "name": "Almudron",
+    "type": "Leviathan",
+    "elements": "Water",
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ],
+    "iconColor": [
+      "Gray",
+      "Orange",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 2897,
+    "max_size": 3368,
+    "min_size": 2425
+  },
+  {
+    "name": "Apex Arzuros",
+    "type": "Fanged Beast",
+    "elements": "None",
+    "weaknesses": [
+      "Fire",
+      "Ice",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Gray",
+      "Yellow",
+      "Blue",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 716,
+    "max_size": 681,
+    "min_size": 751
+  },
+  {
+    "name": "Goss Harag",
+    "type": "Fanged Beast",
+    "elements": "Ice",
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Blue",
+      "Gray",
+      "White"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 775,
+    "max_size": 906,
+    "min_size": 643
+  },
+  {
+    "name": "Crimson Glow Valstrax",
+    "type": "Elder Dragon",
+    "elements": "Dragon",
+    "weaknesses": [
+      "Fire",
+      "Water",
+      "Thunder",
+      "Ice"
+    ],
+    "iconColor": [
+      "Red",
+      "Orange",
+      "Blue",
+      "Purple"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 2174,
+    "max_size": 2551,
+    "min_size": 1796
+  },
+  {
+    "name": "Bishaten",
+    "type": "Fanged Beast",
+    "elements": "None",
+    "weaknesses": [
+      "Ice",
+      "Fire"
+    ],
+    "iconColor": [
+      "Blue",
+      "Gray",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 943,
+    "max_size": 1054,
+    "min_size": 832
+  },
+  {
+    "name": "Apex Zinogre",
+    "type": "Fanged Wyvern",
+    "elements": "Thunder",
+    "weaknesses": [
+      "Ice",
+      "Fire",
+      "Water",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Green",
+      "Yellow",
+      "Gray",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 1895,
+    "max_size": 1895,
+    "min_size": 1895
+  },
+  {
+    "name": "Rakna-Kadaki",
+    "type": "Temnoceran",
+    "elements": "Fire",
+    "weaknesses": [
+      "Ice",
+      "Water"
+    ],
+    "iconColor": [
+      "Blue",
+      "Orange",
+      "Gray",
+      "Purple"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 921,
+    "max_size": 1071,
+    "min_size": 771
+  },
+  {
+    "name": "Apex Diablos",
+    "type": "Flying Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Ice",
+      "Water",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Blue",
+      "Gray",
+      "Orange",
+      "Brown"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 2498,
+    "max_size": 2157,
+    "min_size": 2838
+  },
+  {
+    "name": "Apex Mizutsune",
+    "type": "Leviathan",
+    "elements": "Water",
+    "weaknesses": [
+      "Thunder",
+      "Dragon",
+      "Ice"
+    ],
+    "iconColor": [
+      "Pink",
+      "Gray",
+      "Blue",
+      "Purple"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 2374,
+    "max_size": 2110,
+    "min_size": 2638
+  },
+  {
+    "name": "Somnacanth",
+    "type": "Leviathan",
+    "elements": "None",
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "iconColor": [
+      "Purple",
+      "Blue",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 1645,
+    "max_size": 1899,
+    "min_size": 1390
+  },
+  {
+    "name": "Tetranadon",
+    "type": "Amphibian",
+    "elements": "Water",
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "iconColor": [
+      "Gray",
+      "Yellow",
+      "Green",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 1028,
+    "max_size": 1206,
+    "min_size": 849
+  },
+  {
+    "name": "Magnamalo",
+    "type": "Fanged Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ],
+    "iconColor": [
+      "Blue",
+      "Gray",
+      "Pink",
+      "Yellow"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 1939,
+    "max_size": 2276,
+    "min_size": 1602
+  },
+  {
+    "name": "Great Izuchi",
+    "type": "Bird Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ],
+    "iconColor": [
+      "Gray",
+      "White",
+      "Blue",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 1145,
+    "max_size": 1343,
+    "min_size": 946
+  },
+  {
+    "name": "Aknosom",
+    "type": "Bird Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Gray",
+      "Orange",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter Rise",
+    "size": 903,
+    "max_size": 1043,
+    "min_size": 763
+  },
+  {
+    "name": "Malzeno",
+    "type": "Elder Dragon",
+    "elements": "Dragon",
+    "weaknesses": "Dragon",
+    "iconColor": [
+      "Pink",
+      "White",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 2175,
+    "max_size": 2477,
+    "min_size": 1873
+  },
+  {
+    "name": "Gaismagorm",
+    "type": "Elder Dragon",
+    "elements": "None",
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Pink",
+      "Blue",
+      "Yellow",
+      "Brown"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 4807,
+    "max_size": 4807,
+    "min_size": 4807
+  },
+  {
+    "name": "Risen Chameleos",
+    "type": "Elder Dragon",
+    "elements": "None",
+    "weaknesses": "Fire",
+    "iconColor": [
+      "Brown",
+      "Orange",
+      "Yellow",
+      "Red",
+      "Blue",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 2530,
+    "max_size": 2811,
+    "min_size": 2249
+  },
+  {
+    "name": "Aurora Somnacanth",
+    "type": "Leviathan",
+    "elements": "Ice",
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Blue",
+      "Pruple",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 1645,
+    "max_size": 1915,
+    "min_size": 1375
+  },
+  {
+    "name": "Lunagaron",
+    "type": "Fanged Wyvern",
+    "elements": "Ice",
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Blue",
+      "Red",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 1506,
+    "max_size": 1739,
+    "min_size": 1272
+  },
+  {
+    "name": "Violet Mizutsune",
+    "type": "Leviathan",
+    "elements": "Fire",
+    "weaknesses": "Ice",
+    "iconColor": [
+      "Blue",
+      "Purple",
+      "Gray",
+      "White"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 2004,
+    "max_size": 2269,
+    "min_size": 1738
+  },
+  {
+    "name": "Espinas",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": "Ice",
+    "iconColor": [
+      "Green",
+      "Pink",
+      "Red",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 1657,
+    "max_size": 2477,
+    "min_size": 836
+  },
+  {
+    "name": "Garangolm",
+    "type": "Fanged Beast",
+    "elements": [
+      "Fire",
+      "Water"
+    ],
+    "weaknesses": [
+      "Thunder",
+      "Fire",
+      "Ice",
+      "Water"
+    ],
+    "iconColor": [
+      "Green",
+      "Yellow",
+      "Brown"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 1659,
+    "max_size": 1789,
+    "min_size": 1529
+  },
+  {
+    "name": "Flaming Espinas",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": "Water",
+    "iconColor": [
+      "Brown",
+      "Purple",
+      "Red",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 2151,
+    "max_size": 2812,
+    "min_size": 1489
+  },
+  {
+    "name": "Blood Orange Bishaten",
+    "type": "Fanged Beast",
+    "elements": "Fire",
+    "weaknesses": "Water",
+    "iconColor": [
+      "Orange",
+      "Yellow",
+      "Red",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 943,
+    "max_size": 1054,
+    "min_size": 832
+  },
+  {
+    "name": "Magna Almudron",
+    "type": "Leviathan",
+    "elements": "Fire",
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "iconColor": [
+      "Orange",
+      "Blue",
+      "Yellow",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 2910,
+    "max_size": 3341,
+    "min_size": 2478
+  },
+  {
+    "name": "Pyre Rakna-Kadaki",
+    "type": "Temnoceran",
+    "elements": "Fire",
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "iconColor": [
+      "Blue",
+      "Red",
+      "Yellow",
+      "White"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 856,
+    "max_size": 856,
+    "min_size": 856
+  },
+  {
+    "name": "Scorned Magnamalo",
+    "type": "Fanged Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Red",
+      "Pink",
+      "Yellow",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter Rise: Sunbreak",
+    "size": 2002,
+    "max_size": 2002,
+    "min_size": 2002
+  },
+  {
+    "name": "Radobaan",
+    "type": "Brute Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ],
+    "iconColor": [
+      "Gray",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1885,
+    "max_size": 2182,
+    "min_size": 1587
+  },
+  {
+    "name": "Behemoth",
+    "type": "Elder Dragon",
+    "elements": [
+      "Fire",
+      "Thunder"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Water"
+    ],
+    "iconColor": [
+      "Black",
+      "Purple",
+      "Brown"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 3423,
+    "max_size": 3423,
+    "min_size": 3423
+  },
+  {
+    "name": "Great Jagras",
+    "type": "Fanged Wyvern",
+    "elements": "None",
+    "weaknesses": "Fire",
+    "iconColor": [
+      "Green",
+      "Yellow",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1137,
+    "max_size": 1997,
+    "min_size": 277
+  },
+  {
+    "name": "Ancient Leshen",
+    "type": "Relict",
+    "elements": "None",
+    "weaknesses": "Fire",
+    "iconColor": [
+      "Black",
+      "Brown",
+      "Green",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 633,
+    "max_size": 633,
+    "min_size": 633
+  },
+  {
+    "name": "Leshen",
+    "type": "Relict",
+    "elements": "None",
+    "weaknesses": "Fire",
+    "iconColor": [
+      "White",
+      "Brown",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 549,
+    "max_size": 549,
+    "min_size": 549
+  },
+  {
+    "name": "Vaal Hazak",
+    "type": "Elder Dragon",
+    "elements": "None",
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Orange",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 2221,
+    "max_size": 2598,
+    "min_size": 1843
+  },
+  {
+    "name": "Xeno'jiiva",
+    "type": "Elder Dragon",
+    "elements": [
+      "Fire",
+      "Dragon"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon",
+      "Water",
+      "Thunder",
+      "Ice"
+    ],
+    "iconColor": [
+      "Blue",
+      "Gray",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 4509,
+    "max_size": 4509,
+    "min_size": 4509
+  },
+  {
+    "name": "Paolumu",
+    "type": "Flying Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "iconColor": [
+      "White",
+      "Gray",
+      "Brown",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1218,
+    "max_size": 1429,
+    "min_size": 1006
+  },
+  {
+    "name": "Odogaron",
+    "type": "Fanged Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Red",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1138,
+    "max_size": 1735,
+    "min_size": 541
+  },
+  {
+    "name": "Dodogama",
+    "type": "Fanged Wyvern",
+    "elements": "None",
+    "weaknesses": "Thunder",
+    "iconColor": [
+      "Blue",
+      "Gray",
+      "Black",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1489,
+    "max_size": 2000,
+    "min_size": 977
+  },
+  {
+    "name": "Pukei-Pukei",
+    "type": "Bird Wyvern",
+    "elements": "None",
+    "weaknesses": "Thunder",
+    "iconColor": [
+      "Orange",
+      "Pink",
+      "Green",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1157,
+    "max_size": 1344,
+    "min_size": 970
+  },
+  {
+    "name": "Nergigante",
+    "type": "Elder Dragon",
+    "elements": "None",
+    "weaknesses": [
+      "Thunder",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Gray",
+      "White",
+      "Black",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1968,
+    "max_size": 2310,
+    "min_size": 1626
+  },
+  {
+    "name": "Legiana",
+    "type": "Flying Wyvern",
+    "elements": "Ice",
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "iconColor": [
+      "Blue",
+      "Purple",
+      "Black"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1810,
+    "max_size": 2124,
+    "min_size": 1495
+  },
+  {
+    "name": "Kulve Taroth",
+    "type": "Elder Dragon",
+    "elements": "Fire",
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ],
+    "iconColor": "Yellow",
+    "firstAppearance": "Monster Hunter World",
+    "size": 4573,
+    "max_size": 4573,
+    "min_size": 4573
+  },
+  {
+    "name": "Tzitzi-Ya-Ku",
+    "type": "Bird Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ],
+    "iconColor": [
+      "Purple",
+      "Orange",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 952,
+    "max_size": 1117,
+    "min_size": 786
+  },
+  {
+    "name": "Bazelgeuse",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Thunder",
+      "Ice",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Red",
+      "Gray",
+      "Black"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 2053,
+    "max_size": 2410,
+    "min_size": 1696
+  },
+  {
+    "name": "Jyuratodus",
+    "type": "Piscine Wyvern",
+    "elements": "Water",
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ],
+    "iconColor": [
+      "Orange",
+      "Gray",
+      "Pink"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1606,
+    "max_size": 1885,
+    "min_size": 1327
+  },
+  {
+    "name": "Anjanath",
+    "type": "Brute Wyvern",
+    "elements": "Fire",
+    "weaknesses": "Water",
+    "iconColor": [
+      "Red",
+      "Pink",
+      "Gray",
+      "Yellow"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1728,
+    "max_size": 2008,
+    "min_size": 1448
+  },
+  {
+    "name": "Tobi-Kadachi",
+    "type": "Fanged Wyvern",
+    "elements": "Thunder",
+    "weaknesses": "Water",
+    "iconColor": [
+      "Blue",
+      "Gray",
+      "White"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1365,
+    "max_size": 1573,
+    "min_size": 1157
+  },
+  {
+    "name": "Kulu-Ya-Ku",
+    "type": "Bird Wyvern",
+    "elements": "None",
+    "weaknesses": "Water",
+    "iconColor": [
+      "White",
+      "Red",
+      "Orange",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1014,
+    "max_size": 1226,
+    "min_size": 802
+  },
+  {
+    "name": "Zorah Magdaros",
+    "type": "Elder Dragon",
+    "elements": "Fire",
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Black",
+      "Red",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 25764,
+    "max_size": 25764,
+    "min_size": 25764
+  },
+  {
+    "name": "Great Girros",
+    "type": "Fanged Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "iconColor": [
+      "Black",
+      "Green",
+      "Yellow",
+      "Red"
+    ],
+    "firstAppearance": "Monster Hunter World",
+    "size": 1127,
+    "max_size": 1316,
+    "min_size": 937
+  },
+  {
+    "name": "Banbaro",
+    "type": "Brute Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "iconColor": [
+      "Brown",
+      "White"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 2561,
+    "max_size": 2957,
+    "min_size": 2164
+  },
+  {
+    "name": "Ruiner Nergigante",
+    "type": "Elder Dragon",
+    "elements": "None",
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Gray",
+      "Black",
+      "Orange",
+      "Yellow",
+      "Pink"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 1987,
+    "max_size": 2310,
+    "min_size": 1663
+  },
+  {
+    "name": "Safi'jiiva",
+    "type": "Elder Dragon",
+    "elements": "Fire",
+    "weaknesses": [
+      "Dragon",
+      "Thunder",
+      "Ice",
+      "Water",
+      "Fire"
+    ],
+    "iconColor": [
+      "Red",
+      "Gray",
+      "Black"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 5111,
+    "max_size": 5903,
+    "min_size": 4319
+  },
+  {
+    "name": "Acidic Glavenus",
+    "type": "Brute Wyvern",
+    "elements": "None",
+    "weaknesses": "Fire",
+    "iconColor": [
+      "Green",
+      "Orange",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 2752,
+    "max_size": 2894,
+    "min_size": 2609
+  },
+  {
+    "name": "Frostfang Barioth",
+    "type": "Flying Wyvern",
+    "elements": "Ice",
+    "weaknesses": "Fire",
+    "iconColor": [
+      "Blue",
+      "White"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 2234,
+    "max_size": 2580,
+    "min_size": 1888
+  },
+  {
+    "name": "Namielle",
+    "type": "Elder Dragon",
+    "elements": [
+      "Water",
+      "Thunder"
+    ],
+    "weaknesses": "Fire",
+    "iconColor": [
+      "Orange",
+      "Purple",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 2191,
+    "max_size": 2560,
+    "min_size": 1822
+  },
+  {
+    "name": "Blackveil Vaal Hazak",
+    "type": "Elder Dragon",
+    "elements": "None",
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Brown",
+      "Gray",
+      "White",
+      "Green"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 2231,
+    "max_size": 2577,
+    "min_size": 1885
+  },
+  {
+    "name": "Shrieking Legiana",
+    "type": "Flying Wyvern",
+    "elements": "Ice",
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Purple",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 1891,
+    "max_size": 2252,
+    "min_size": 1529
+  },
+  {
+    "name": "Velkhana",
+    "type": "Elder Dragon",
+    "elements": "Ice",
+    "weaknesses": [
+      "Fire",
+      "Thunder",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Blue",
+      "White"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 2765,
+    "max_size": 3193,
+    "min_size": 2336
+  },
+  {
+    "name": "Shara Ishvalda",
+    "type": "Elder Dragon",
+    "elements": "None",
+    "weaknesses": "Ice",
+    "iconColor": [
+      "Gren",
+      "Gray",
+      "Yellow"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 3100,
+    "max_size": 3580,
+    "min_size": 2619
+  },
+  {
+    "name": "Seething Bazelgeuze",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": "Ice",
+    "iconColor": [
+      "Red",
+      "Orange",
+      "Purple"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 2053,
+    "max_size": 2371,
+    "min_size": 1735
+  },
+  {
+    "name": "Coral Pukei-Pukei",
+    "type": "Bird Wyvern",
+    "elements": "Water ",
+    "weaknesses": "Ice",
+    "iconColor": [
+      "Purple",
+      "Pink",
+      "Yellow",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 1157,
+    "max_size": 1322,
+    "min_size": 992
+  },
+  {
+    "name": "Beotodus",
+    "type": "Piscine Wyvern",
+    "elements": "Ice",
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "iconColor": [
+      "Blue",
+      "Brown"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 1762,
+    "max_size": 2044,
+    "min_size": 1479
+  },
+  {
+    "name": "Viper Tobi-Kadachi",
+    "type": "Fanged Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ],
+    "iconColor": [
+      "Gray",
+      "Brown",
+      "Yellow"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 1365,
+    "max_size": 1560,
+    "min_size": 1170
+  },
+  {
+    "name": "Ebony Odogaron",
+    "type": "Fanged Wyvern",
+    "elements": "Dragon",
+    "weaknesses": "Water",
+    "iconColor": [
+      "Purple",
+      "Blue",
+      "Red"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 1486,
+    "max_size": 1722,
+    "min_size": 1249
+  },
+  {
+    "name": "Nightshade Paolumu",
+    "type": "Flying Wyvern",
+    "elements": "None",
+    "weaknesses": "Water",
+    "iconColor": [
+      "Black",
+      "Green",
+      "Red",
+      "Pink"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 1206,
+    "max_size": 1406,
+    "min_size": 1006
+  },
+  {
+    "name": "Fulgur Anjanath",
+    "type": "Brute Wyvern",
+    "elements": "Thunder",
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "iconColor": [
+      "Yellow",
+      "Orange",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter World: Iceborne",
+    "size": 1745,
+    "max_size": 2008,
+    "min_size": 1481
+  }
+]

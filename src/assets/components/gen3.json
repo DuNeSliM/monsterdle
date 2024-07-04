@@ -1,0 +1,735 @@
+[
+  {
+    "name": "Jhen Mohran",
+    "type": "Elder Dragon",
+    "elements": "None",
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ],
+    "iconColor": [
+      "Green",
+      "Orange",
+      "Blue",
+      "Brown"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 11161,
+    "max_size": 11161,
+    "min_size": 11161
+  },
+  {
+    "name": "Ceadeus",
+    "type": "Elder Dragon",
+    "elements": "Water",
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Gray",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 5837,
+    "max_size": 5837,
+    "min_size": 5837
+  },
+  {
+    "name": "Deviljho",
+    "type": "Brute Wyvern",
+    "elements": "Dragon",
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Green",
+      "Blue",
+      "Red",
+      "Yellow"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 2950,
+    "max_size": 4097,
+    "min_size": 1803
+  },
+  {
+    "name": "Lagiacrus",
+    "type": "Leviathan",
+    "elements": "Thunder",
+    "weaknesses": "Fire",
+    "iconColor": [
+      "Blue",
+      "Red",
+      "Yellow"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 2820,
+    "max_size": 3310,
+    "min_size": 2330
+  },
+  {
+    "name": "Great Baggi",
+    "type": "Bird Wyvern",
+    "elements": "None",
+    "weaknesses": "Fire",
+    "iconColor": [
+      "Blue",
+      "Purple",
+      "Brown",
+      "Yellow"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 1148,
+    "max_size": 1457,
+    "min_size": 839
+  },
+  {
+    "name": "Gigginox",
+    "type": "Flying Wyvern",
+    "elements": "None",
+    "weaknesses": "Fire",
+    "iconColor": [
+      "Blue",
+      "Red",
+      "Purple"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 1124,
+    "max_size": 1266,
+    "min_size": 982
+  },
+  {
+    "name": "Great Jaggi",
+    "type": "Bird Wyvern",
+    "elements": "None",
+    "weaknesses": "Fire",
+    "iconColor": [
+      "Purple",
+      "Orange",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 1042,
+    "max_size": 1261,
+    "min_size": 822
+  },
+  {
+    "name": "Barioth",
+    "type": "Flying Wyvern",
+    "elements": "Ice",
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Orange",
+      "White",
+      "Purple"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 2234,
+    "max_size": 2580,
+    "min_size": 1888
+  },
+  {
+    "name": "Royal Ludroth",
+    "type": "Leviathan",
+    "elements": "Water",
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Yellow",
+      "Green",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 1645,
+    "max_size": 1931,
+    "min_size": 1359
+  },
+  {
+    "name": "Qurupeco",
+    "type": "Bird Wyvern",
+    "elements": "Fire",
+    "weaknesses": "Ice",
+    "iconColor": [
+      "Yellow",
+      "Red",
+      "Green",
+      "Purple"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 929,
+    "max_size": 1085,
+    "min_size": 772
+  },
+  {
+    "name": "Alatreon",
+    "type": "Elder Dragon",
+    "elements": [
+      "Dragon",
+      "Fire",
+      "Ice",
+      "Thunder"
+    ],
+    "weaknesses": [
+      "Ice",
+      "Water",
+      "Dragon",
+      "Fire"
+    ],
+    "iconColor": [
+      "Yellow",
+      "Orange",
+      "Green",
+      "Blue",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 3037,
+    "max_size": 3105,
+    "min_size": 2969
+  },
+  {
+    "name": "Gobul",
+    "type": "Leviathan",
+    "elements": "None",
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "iconColor": [
+      "Brown",
+      "Purple",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 2203,
+    "max_size": 2844,
+    "min_size": 1562
+  },
+  {
+    "name": "Uragaan",
+    "type": "Brute Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Brown",
+      "Red",
+      "Green"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 1877,
+    "max_size": 3344,
+    "min_size": 410
+  },
+  {
+    "name": "Barroth",
+    "type": "Brute Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Water",
+      "Fire",
+      "Ice"
+    ],
+    "iconColor": "Brown",
+    "firstAppearance": "Monster Hunter 3",
+    "size": 1481,
+    "max_size": 1744,
+    "min_size": 1217
+  },
+  {
+    "name": "Agnaktor",
+    "type": "Leviathan",
+    "elements": "Fire",
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "iconColor": [
+      "Red",
+      "Orange",
+      "Yellow"
+    ],
+    "firstAppearance": "Monster Hunter 3",
+    "size": 2919,
+    "max_size": 3421,
+    "min_size": 2416
+  },
+  {
+    "name": "Dire Miralis",
+    "type": "Elder Dragon",
+    "elements": "Fire",
+    "weaknesses": "Dragon",
+    "iconColor": "None",
+    "firstAppearance": "Monster Hunter 3 Ultimate",
+    "size": 6288,
+    "max_size": 6288,
+    "min_size": 6288
+  },
+  {
+    "name": "Goldbeard Ceadeus",
+    "type": "Elder Dragon",
+    "elements": "Water",
+    "weaknesses": "Dragon",
+    "iconColor": [
+      "Yellow",
+      "Gray",
+      "Black"
+    ],
+    "firstAppearance": "Monster Hunter 3 Ultimate",
+    "size": 5837,
+    "max_size": 5837,
+    "min_size": 5837
+  },
+  {
+    "name": "Abyssal Lagiacrus",
+    "type": "Leviathan",
+    "elements": "Thunder",
+    "weaknesses": "Dragon",
+    "iconColor": [
+      "Black",
+      "Blue",
+      "Red",
+      "Green",
+      "Brown"
+    ],
+    "firstAppearance": "Monster Hunter 3 Ultimate",
+    "size": 3969,
+    "max_size": 3969,
+    "min_size": 3969
+  },
+  {
+    "name": "Savage Deviljho",
+    "type": "Brute Wyvern",
+    "elements": "Dragon",
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Red",
+      "Black",
+      "Yellow",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter 3 Ultimate",
+    "size": 2950,
+    "max_size": 4097,
+    "min_size": 1803
+  },
+  {
+    "name": "Hallowed Jhen Mohran",
+    "type": "Elder Dragon",
+    "elements": "None",
+    "weaknesses": "Fire",
+    "iconColor": [
+      "Purple",
+      "Blue",
+      "Orange",
+      "Brown"
+    ],
+    "firstAppearance": "Monster Hunter 3 Ultimate",
+    "size": 11161,
+    "max_size": 11161,
+    "min_size": 11161
+  },
+  {
+    "name": "Ivory Lagiacrus",
+    "type": "Leviathan",
+    "elements": [
+      "Thunder",
+      "Water"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Blue",
+      "White"
+    ],
+    "firstAppearance": "Monster Hunter 3 Ultimate",
+    "size": 2913,
+    "max_size": 3310,
+    "min_size": 2516
+  },
+  {
+    "name": "Lucent Nargacuga",
+    "type": "Flying Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Ice",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Blue",
+      "Purple",
+      "Brown",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter 3 Ultimate",
+    "size": 2503,
+    "max_size": 2503,
+    "min_size": 2503
+  },
+  {
+    "name": "Stygian Zinogre",
+    "type": "Fanged Wyvern",
+    "elements": "Dragon",
+    "weaknesses": "Thunder",
+    "iconColor": [
+      "Red",
+      "White",
+      "Green"
+    ],
+    "firstAppearance": "Monster Hunter 3 Ultimate",
+    "size": 1642,
+    "max_size": 1887,
+    "min_size": 1397
+  },
+  {
+    "name": "Brachydios",
+    "type": "Brute Wyvern",
+    "elements": "None",
+    "weaknesses": "Water",
+    "iconColor": [
+      "Purple",
+      "Green",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter 3 Ultimate",
+    "size": 1636,
+    "max_size": 1932,
+    "min_size": 1339
+  },
+  {
+    "name": "Rust Duramboros",
+    "type": "Brute Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "iconColor": [
+      "Red",
+      "Orange",
+      "Brown",
+      "Pink"
+    ],
+    "firstAppearance": "Monster Hunter 3 Ultimate",
+    "size": 3285,
+    "max_size": 4454,
+    "min_size": 2116
+  },
+  {
+    "name": "Amatsu",
+    "type": "Elder Dragon",
+    "elements": "Water",
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "iconColor": [
+      "White",
+      "Orange",
+      "Green"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 3133,
+    "max_size": 3133,
+    "min_size": 3133
+  },
+  {
+    "name": "Glacial Agnaktor",
+    "type": "Leviathan",
+    "elements": [
+      "Ice",
+      "Water"
+    ],
+    "weaknesses": [
+      "Fire",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Blue",
+      "Gray",
+      "Red"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 2687,
+    "max_size": 3176,
+    "min_size": 2198
+  },
+  {
+    "name": "Arzuros",
+    "type": "Fanged Beast",
+    "elements": "None",
+    "weaknesses": [
+      "Fire",
+      "Ice"
+    ],
+    "iconColor": [
+      "Blue",
+      "Brown",
+      "Yellow",
+      "Red"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 678,
+    "max_size": 854,
+    "min_size": 501
+  },
+  {
+    "name": "Duramboros",
+    "type": "Brute Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Fire",
+      "Poison"
+    ],
+    "iconColor": [
+      "Green",
+      "Brown",
+      "Blue",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 1964,
+    "max_size": 2611,
+    "min_size": 1317
+  },
+  {
+    "name": "Purple Ludroth",
+    "type": "Leviathan",
+    "elements": "None",
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Purple",
+      "Pink",
+      "Green",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 1703,
+    "max_size": 1939,
+    "min_size": 1467
+  },
+  {
+    "name": "Jade Barroth",
+    "type": "Brute Wyvern",
+    "elements": "Ice",
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Blue",
+      "Gray",
+      "Purple"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 1505,
+    "max_size": 1744,
+    "min_size": 1266
+  },
+  {
+    "name": "Lagombi",
+    "type": "Fanged Beast",
+    "elements": "Ice",
+    "weaknesses": [
+      "Fire",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Gray",
+      "Black",
+      "Blue",
+      "Purple"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 898,
+    "max_size": 1581,
+    "min_size": 214
+  },
+  {
+    "name": "Zinogre",
+    "type": "Fanged Wyvern",
+    "elements": "Thunder",
+    "weaknesses": "Ice",
+    "iconColor": [
+      "Green",
+      "Yellow",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 1681,
+    "max_size": 2144,
+    "min_size": 1217
+  },
+  {
+    "name": "Great Wroggi",
+    "type": "Bird Wyvern",
+    "elements": "None",
+    "weaknesses": "Ice",
+    "iconColor": [
+      "Purple",
+      "Orange",
+      "Yellow",
+      "Brown"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 1000,
+    "max_size": 1168,
+    "min_size": 831
+  },
+  {
+    "name": "Crimson Qurupeco",
+    "type": "Bird Wyvern",
+    "elements": "Thunder",
+    "weaknesses": "Ice",
+    "iconColor": [
+      "Yellow",
+      "Orange",
+      "Blue",
+      "Gray",
+      "Red"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 716,
+    "max_size": 1085,
+    "min_size": 347
+  },
+  {
+    "name": "Nibelsnarf",
+    "type": "Leviathan",
+    "elements": "None",
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Red",
+      "Pink",
+      "Brown",
+      "Blue",
+      "Yellow"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 3251,
+    "max_size": 4693,
+    "min_size": 1808
+  },
+  {
+    "name": "Sand Barioth",
+    "type": "Flying Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Yellow",
+      "Orange",
+      "Red",
+      "Green"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 2004,
+    "max_size": 2277,
+    "min_size": 1730
+  },
+  {
+    "name": "Green Nargacuga",
+    "type": "Flying Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "iconColor": [
+      "Green",
+      "Orange",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 1706,
+    "max_size": 2002,
+    "min_size": 1410
+  },
+  {
+    "name": "Brute Tigrex",
+    "type": "Flying Wyvern",
+    "elements": "None",
+    "weaknesses": "Water",
+    "iconColor": [
+      "Yellow",
+      "Gray",
+      "Black"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 1874,
+    "max_size": 2169,
+    "min_size": 1579
+  },
+  {
+    "name": "Baleful Gigginox",
+    "type": "Flying Wyvern",
+    "elements": "Thunder",
+    "weaknesses": "Water",
+    "iconColor": [
+      "Green",
+      "Red",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 1124,
+    "max_size": 1266,
+    "min_size": 982
+  },
+  {
+    "name": "Volvidon",
+    "type": "Fanged Beast",
+    "elements": "None",
+    "weaknesses": "Water",
+    "iconColor": [
+      "Red",
+      "Purple",
+      "Orange",
+      "Brown"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 753,
+    "max_size": 892,
+    "min_size": 613
+  },
+  {
+    "name": "Steel Uragaan",
+    "type": "Brute Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Water",
+      "Dragon"
+    ],
+    "iconColor": [
+      "Blue",
+      "Red",
+      "Yellow",
+      "Purple"
+    ],
+    "firstAppearance": "Monster Hunter Portable 3dr",
+    "size": 2686,
+    "max_size": 3449,
+    "min_size": 1922
+  }
+]

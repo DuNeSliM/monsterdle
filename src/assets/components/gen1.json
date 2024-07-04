@@ -1,0 +1,475 @@
+[
+  {
+    "name": "Lao-Shan Lung",
+    "type": "Elder Dragon",
+    "elements": "Dragon",
+    "weaknesses": "Dragon",
+    "iconColor": [
+      "Red",
+      "Black"
+    ],
+    "firstAppearance": "Monster Hunter",
+    "size": 6960,
+    "max_size": 6960,
+    "min_size": 6960
+  },
+  {
+    "name": "Fatalis",
+    "type": "Elder Dragon",
+    "elements": [
+      "Dragon",
+      "Fire"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "iconColor": [
+      "Orange",
+      "Gray",
+      "Black"
+    ],
+    "firstAppearance": "Monster Hunter",
+    "size": 4124,
+    "max_size": 4137,
+    "min_size": 4110
+  },
+  {
+    "name": "Rathian",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Green",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter",
+    "size": 1727,
+    "max_size": 2303,
+    "min_size": 1151
+  },
+  {
+    "name": "Basarios",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Dragon",
+      "Water"
+    ],
+    "iconColor": "Gray",
+    "firstAppearance": "Monster Hunter",
+    "size": 1454,
+    "max_size": 1754,
+    "min_size": 1154
+  },
+  {
+    "name": "Gypceros",
+    "type": "Bird Wyvern",
+    "elements": "None",
+    "weaknesses": "Fire",
+    "iconColor": [
+      "Orange",
+      "Blue"
+    ],
+    "firstAppearance": "Monster Hunter",
+    "size": 1080,
+    "max_size": 1348,
+    "min_size": 811
+  },
+  {
+    "name": "Khezu",
+    "type": "Flying Wyvern",
+    "elements": "Thunder",
+    "weaknesses": "Fire",
+    "iconColor": "Gray",
+    "firstAppearance": "Monster Hunter",
+    "size": 831,
+    "max_size": 1225,
+    "min_size": 436
+  },
+  {
+    "name": "Kirin",
+    "type": "Elder Dragon",
+    "elements": "Thunder",
+    "weaknesses": [
+      "Fire",
+      "Water"
+    ],
+    "iconColor": [
+      "Blue",
+      "White"
+    ],
+    "firstAppearance": "Monster Hunter",
+    "size": 680,
+    "max_size": 989,
+    "min_size": 371
+  },
+  {
+    "name": "Diablos",
+    "type": "Flying Wyvern",
+    "elements": "None",
+    "weaknesses": "Ice",
+    "iconColor": "Yellow",
+    "firstAppearance": "Monster Hunter",
+    "size": 2413,
+    "max_size": 3030,
+    "min_size": 1796
+  },
+  {
+    "name": "Cephadrome",
+    "type": "Piscine Wyvern",
+    "elements": "Water",
+    "weaknesses": [
+      "Ice",
+      "Thunder"
+    ],
+    "iconColor": "Brown",
+    "firstAppearance": "Monster Hunter",
+    "size": 1493,
+    "max_size": 2097,
+    "min_size": 889
+  },
+  {
+    "name": "Rathalos",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Ice",
+      "Water",
+      "Dragon",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Red",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter",
+    "size": 1694,
+    "max_size": 2248,
+    "min_size": 1140
+  },
+  {
+    "name": "Velocidrome",
+    "type": "Bird Wyvern",
+    "elements": "None",
+    "weaknesses": "Thunder",
+    "iconColor": [
+      "Blue",
+      "Red"
+    ],
+    "firstAppearance": "Monster Hunter",
+    "size": 1163,
+    "max_size": 1736,
+    "min_size": 590
+  },
+  {
+    "name": "Plesioth",
+    "type": "Piscine Wyvern",
+    "elements": "Water",
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "iconColor": [
+      "Blue",
+      "Orange",
+      "Yellow"
+    ],
+    "firstAppearance": "Monster Hunter",
+    "size": 2934,
+    "max_size": 3877,
+    "min_size": 1991
+  },
+  {
+    "name": "Monoblos",
+    "type": "Flying Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Thunder",
+      "Ice"
+    ],
+    "iconColor": "Orange",
+    "firstAppearance": "Monster Hunter",
+    "size": 2301,
+    "max_size": 2918,
+    "min_size": 1683
+  },
+  {
+    "name": "Iodrome",
+    "type": "Bird Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Thunder",
+      "Water"
+    ],
+    "iconColor": "Red",
+    "firstAppearance": "Monster Hunter",
+    "size": 1130,
+    "max_size": 1641,
+    "min_size": 619
+  },
+  {
+    "name": "Gravios",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": "Water",
+    "iconColor": "Gray",
+    "firstAppearance": "Monster Hunter",
+    "size": 2057,
+    "max_size": 3065,
+    "min_size": 1049
+  },
+  {
+    "name": "Gendrome",
+    "type": "Bird Wyvern",
+    "elements": "None",
+    "weaknesses": "Water",
+    "iconColor": [
+      "Green",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter",
+    "size": 826,
+    "max_size": 1037,
+    "min_size": 615
+  },
+  {
+    "name": "Yian Kut-Ku",
+    "type": "Bird Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Water",
+      "Ice"
+    ],
+    "iconColor": [
+      "Orange",
+      "Yellow"
+    ],
+    "firstAppearance": "Monster Hunter",
+    "size": 827,
+    "max_size": 1204,
+    "min_size": 449
+  },
+  {
+    "name": "Scarred Yian Garuga",
+    "type": "Bird Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Water",
+      "Dragon",
+      "Ice"
+    ],
+    "iconColor": [
+      "Purple",
+      "Brown",
+      "Black"
+    ],
+    "firstAppearance": "Monster Hunter Freedom",
+    "size": 1478,
+    "max_size": 1733,
+    "min_size": 1222
+  },
+  {
+    "name": "Ashen Lao-Shan Lung",
+    "type": "Elder Dragon",
+    "elements": "Dragon",
+    "weaknesses": [
+      "Dragon",
+      "Fire"
+    ],
+    "iconColor": [
+      "Gray",
+      "Black"
+    ],
+    "firstAppearance": "Monster Hunter G",
+    "size": 6960,
+    "max_size": 6960,
+    "min_size": 6960
+  },
+  {
+    "name": "Crimson Fatalis",
+    "type": "Elder Dragon",
+    "elements": [
+      "Dragon",
+      "Fire"
+    ],
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ],
+    "iconColor": "None",
+    "firstAppearance": "Monster Hunter G",
+    "size": 4110,
+    "max_size": 4110,
+    "min_size": 4110
+  },
+  {
+    "name": "Azure Rathalos",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Dragon",
+      "Ice"
+    ],
+    "iconColor": "Blue",
+    "firstAppearance": "Monster Hunter G",
+    "size": 1694,
+    "max_size": 2248,
+    "min_size": 1140
+  },
+  {
+    "name": "Pink Rathian",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Dragon",
+      "Thunder"
+    ],
+    "iconColor": "Pink",
+    "firstAppearance": "Monster Hunter G",
+    "size": 1727,
+    "max_size": 2303,
+    "min_size": 1151
+  },
+  {
+    "name": "Black Diablos",
+    "type": "Flying Wyvern",
+    "elements": "None",
+    "weaknesses": "Ice",
+    "iconColor": [
+      "Gray",
+      "Black"
+    ],
+    "firstAppearance": "Monster Hunter G",
+    "size": 2398,
+    "max_size": 2930,
+    "min_size": 1865
+  },
+  {
+    "name": "White Monoblos",
+    "type": "Flying Wyvern",
+    "elements": "None",
+    "weaknesses": "Thunder",
+    "iconColor": [
+      "White",
+      "Gray"
+    ],
+    "firstAppearance": "Monster Hunter G",
+    "size": 2330,
+    "max_size": 2810,
+    "min_size": 1849
+  },
+  {
+    "name": "Green Plesioth",
+    "type": "Piscine Wyvern",
+    "elements": "Water",
+    "weaknesses": [
+      "Thunder",
+      "Fire"
+    ],
+    "iconColor": [
+      "Green",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter G",
+    "size": 3001,
+    "max_size": 3877,
+    "min_size": 2125
+  },
+  {
+    "name": "Black Gravios",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": "Water",
+    "iconColor": [
+      "Black",
+      "Red"
+    ],
+    "firstAppearance": "Monster Hunter G",
+    "size": 2506,
+    "max_size": 3065,
+    "min_size": 1946
+  },
+  {
+    "name": "Red Khezu",
+    "type": "Flying Wyvern",
+    "elements": "Thunder",
+    "weaknesses": "Water",
+    "iconColor": "Red",
+    "firstAppearance": "Monster Hunter G",
+    "size": 821,
+    "max_size": 1205,
+    "min_size": 436
+  },
+  {
+    "name": "Purple Gypceros",
+    "type": "Bird Wyvern",
+    "elements": "None",
+    "weaknesses": [
+      "Water",
+      "Fire"
+    ],
+    "iconColor": [
+      "Blue",
+      "Green",
+      "Orange",
+      "Purple"
+    ],
+    "firstAppearance": "Monster Hunter G",
+    "size": 1130,
+    "max_size": 1348,
+    "min_size": 912
+  },
+  {
+    "name": "Gold Rathian",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Yellow",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter G",
+    "size": 1727,
+    "max_size": 2303,
+    "min_size": 1151
+  },
+  {
+    "name": "Silver Rathalos",
+    "type": "Flying Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "iconColor": "Gray",
+    "firstAppearance": "Monster Hunter G",
+    "size": 1694,
+    "max_size": 2248,
+    "min_size": 1140
+  },
+  {
+    "name": "Blue Yian Kut-Ku",
+    "type": "Bird Wyvern",
+    "elements": "Fire",
+    "weaknesses": [
+      "Water",
+      "Thunder"
+    ],
+    "iconColor": [
+      "Blue",
+      "Green",
+      "Orange"
+    ],
+    "firstAppearance": "Monster Hunter G",
+    "size": 822,
+    "max_size": 1195,
+    "min_size": 449
+  }
+]

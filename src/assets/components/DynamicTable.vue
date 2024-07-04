@@ -1,5 +1,6 @@
 <template>
   <div class="container">
+    <button class="new-guess-button" @click="newGuess">New Guess</button>
     <div class="radio-group">
       <label>
         <input type="radio" v-model="selectedDataset" value="all"> All Monster
@@ -7,17 +8,44 @@
       <label>
         <input type="radio" v-model="selectedDataset" value="world"> Monster Hunter World Monster
       </label>
+      <label>
+        <input type="radio" v-model="selectedDataset" value="generations"> Generations
+      </label>
+      <div v-if="selectedDataset === 'generations'" class="checkbox-group">
+        <label>
+          <input type="checkbox" v-model="selectedGenerations" value="gen1"> Generation 1
+        </label>
+        <label>
+          <input type="checkbox" v-model="selectedGenerations" value="gen2"> Generation 2
+        </label>
+        <label>
+          <input type="checkbox" v-model="selectedGenerations" value="gen3"> Generation 3
+        </label>
+        <label>
+          <input type="checkbox" v-model="selectedGenerations" value="gen4"> Generation 4
+        </label>
+        <label>
+          <input type="checkbox" v-model="selectedGenerations" value="gen5"> Generation 5
+        </label>
+      </div>
     </div>
     <button class="solve-button" @click="revealMonster">Reveal Monster</button>
     <h1>Monsterdle</h1>
     <h2 v-if="monsterRevealed">{{ randomMonster.name }}</h2>
     <label for="inputField">Enter monster name:</label>
-    <input v-model="inputValue" type="text" id="inputField" @input="filterSuggestions">
+    <input v-model="inputValue" type="text" id="inputField" @input="filterSuggestions" @keydown.down.prevent="moveDown" @keydown.up.prevent="moveUp" @keydown.enter.prevent="selectOrSubmit">
+
     <ul v-if="showSuggestions" class="suggestions">
-      <li v-for="(suggestion, index) in filteredSuggestions" :key="index" @click="selectSuggestion(suggestion.name)">{{ suggestion.name }}</li>
+      <li v-for="(suggestion, index) in filteredSuggestions"
+          :key="index"
+          :class="{ active: index === activeSuggestion }"
+          @click="selectSuggestion(suggestion.name)"
+          @mouseover="activeSuggestion = index">
+        {{ suggestion.name }}
+      </li>
     </ul>
+
     <button @click="addRow" :disabled="!isValidInput">Add to Table</button>
-    <button class="new-guess-button" @click="newGuess">New Guess</button>
 
     <table>
       <thead>
@@ -63,6 +91,11 @@
 <script>
 const monstersData = require('./monster.json');
 const monstersWorldData = require('./monsterWorld.json');
+const gen1Data = require('./gen1.json');
+const gen2Data = require('./gen2.json');
+const gen3Data = require('./gen3.json');
+const gen4Data = require('./gen4.json');
+const gen5Data = require('./gen5.json');
 const unknownImage = require('../icons/unknown.png');
 
 export default {
@@ -73,12 +106,15 @@ export default {
       guessedMonsters: [],
       suggestions: monstersData,
       selectedDataset: 'all', // Default to 'All Monster' dataset
+      selectedGenerations: [],
       filteredSuggestions: [],
       showSuggestions: false,
       randomMonster: {},
       monsterRevealed: false,
       cellHeight: '60px', // Adjust as needed for uniform cell height
-      showModal: false // Track if the modal is displayed
+      showModal: false, // Track if the modal is displayed
+      activeSuggestion: -1,
+      hasSelectedGeneration: false
     };
   },
   computed: {
@@ -93,14 +129,54 @@ export default {
     selectedDataset() {
       this.updateDataset();
       this.newGuess(); // Trigger selection of new random monster when dataset changes
+    },
+    selectedGenerations() {
+      if (this.selectedDataset === 'generations') {
+        this.updateDataset();
+        this.newGuess(); // Trigger selection of new random monster when dataset changes
+        this.hasSelectedGeneration = this.selectedGenerations.length > 0;
+      }
     }
   },
   methods: {
+
+    moveUp() {
+      if (this.activeSuggestion > 0) {
+        this.activeSuggestion--;
+      } else {
+        this.activeSuggestion = this.filteredSuggestions.length - 1;
+      }
+    },
+    moveDown() {
+      if (this.activeSuggestion < this.filteredSuggestions.length - 1) {
+        this.activeSuggestion++;
+      } else {
+        this.activeSuggestion = 0;
+      }
+    },
+    selectOrSubmit() {
+      if (this.activeSuggestion !== -1) {
+        const selectedName = this.filteredSuggestions[this.activeSuggestion].name;
+        this.selectSuggestion(selectedName);
+        this.activeSuggestion = -1;
+      } else {
+        this.addRow();
+      }
+    },
+    
     updateDataset() {
       if (this.selectedDataset === 'all') {
         this.suggestions = monstersData;
       } else if (this.selectedDataset === 'world') {
         this.suggestions = monstersWorldData;
+      } else if (this.selectedDataset === 'generations') {
+        this.suggestions = [];
+        if (this.selectedGenerations.includes('gen1')) this.suggestions = this.suggestions.concat(gen1Data);
+        if (this.selectedGenerations.includes('gen2')) this.suggestions = this.suggestions.concat(gen2Data);
+        if (this.selectedGenerations.includes('gen3')) this.suggestions = this.suggestions.concat(gen3Data);
+        if (this.selectedGenerations.includes('gen4')) this.suggestions = this.suggestions.concat(gen4Data);
+        if (this.selectedGenerations.includes('gen5')) this.suggestions = this.suggestions.concat(gen5Data);
+        this.hasSelectedGeneration = this.selectedGenerations.length > 0;
       }
       this.filterSuggestions();
     },
@@ -150,11 +226,6 @@ export default {
       guessedAttribute.sort((a, b) => (a > b ? 1 : -1));
       chosenAttribute.sort((a, b) => (a > b ? 1 : -1));
 
-      console.log("chosen")
-      console.log(chosenAttribute)
-      console.log("guess")
-      console.log(guessedAttribute)
-
       if (this.arraysEqual(guessedAttribute, chosenAttribute)) {
           return 'green-background';
       } else if (this.checkIntersection(guessedAttribute, chosenAttribute)) {
@@ -182,6 +253,10 @@ export default {
     },
 
     revealMonster() {
+      if (this.selectedDataset === 'generations' && !this.hasSelectedGeneration) {
+        alert("Please select at least one generation.");
+        return;
+      }
       this.monsterRevealed = true;
     },
     formatMonsterName(name) {
@@ -242,11 +317,15 @@ export default {
 }
 
 .radio-group {
-  margin-bottom: 10px;
+  margin-top: 50px; /* Move radio buttons below New Guess button */
 }
 
 .radio-group label {
   margin-right: 20px;
+}
+
+.checkbox-group {
+  margin-top: 10px; /* Add space above checkboxes */
 }
 
 table {
