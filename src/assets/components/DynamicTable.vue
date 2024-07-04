@@ -127,21 +127,47 @@ export default {
       return this.suggestions[randomIndex];
     },
     getCellClass(guessedAttribute, chosenAttribute) {
-      if (!guessedAttribute || !chosenAttribute) {
-        return '';
-      }
+    // Ensure both are arrays
+    if (!Array.isArray(guessedAttribute)) guessedAttribute = [guessedAttribute];
+    if (!Array.isArray(chosenAttribute)) chosenAttribute = [chosenAttribute];
 
-      if (Array.isArray(guessedAttribute) && Array.isArray(chosenAttribute)) {
-        if (guessedAttribute.every(attr => chosenAttribute.includes(attr))) {
-          return 'green-background';
-        } else if (guessedAttribute.some(attr => chosenAttribute.includes(attr))) {
-          return 'orange-background';
-        }
-      } else if (guessedAttribute === chosenAttribute) {
+    // Sort the arrays
+    guessedAttribute.sort((a, b) => (a > b ? 1 : -1));
+    chosenAttribute.sort((a, b) => (a > b ? 1 : -1));
+
+    console.log("chosen")
+    console.log(chosenAttribute)
+    console.log("guess")
+    console.log(guessedAttribute)
+
+    if (this.arraysEqual(guessedAttribute, chosenAttribute)) {
         return 'green-background';
-      }
-      return '';
+    } else if (this.checkIntersection(guessedAttribute, chosenAttribute)) {
+        return 'orange-background';
+    } else {
+        return "";
+    }
     },
+
+    arraysEqual(arr1, arr2) {
+        if (arr1.length !== arr2.length) return false;
+        for (let i = 0; i < arr1.length; i++) {
+            if (arr1[i] !== arr2[i]) return false;
+        }
+        return true;
+    },
+
+    checkIntersection(a, b) {
+        for (let i = 0; i < a.length; i++) {
+            if (b.includes(a[i])) {
+                return true;
+            }
+        }
+        return false;
+    },
+
+
+
     revealMonster() {
       this.monsterRevealed = true;
     },
