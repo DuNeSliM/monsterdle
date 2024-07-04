@@ -195,16 +195,29 @@ export default {
       }
     },
     filterSuggestions() {
-      if (this.inputValue === '') {
-        this.filteredSuggestions = [];
-        this.showSuggestions = false;
-        return;
-      }
+    if (this.inputValue === '') {
+      this.filteredSuggestions = [];
+      this.showSuggestions = false;
+      return;
+    }
 
+    // Convert input value to lowercase for case insensitive comparison
+    const inputValueLower = this.inputValue.toLowerCase();
+
+    // Check if input value matches "Cristiano Ronaldo", "Ronaldo", or "suiii" with any number of 'i'
+    if (inputValueLower.includes("cristiano ronaldo") || 
+        inputValueLower.includes("ronaldo") ||
+        /^su+i+$/.test(inputValueLower)) {
+      // Suggest "Zinogre" if the input matches
+      this.filteredSuggestions = [{ name: "Zinogre" }];
+    } else {
+      // Otherwise, filter based on default logic
       this.filteredSuggestions = this.suggestions.filter(suggestion =>
-        suggestion.name.toLowerCase().startsWith(this.inputValue.toLowerCase()) && !this.guessedMonsters.includes(suggestion.name.toLowerCase())
+        suggestion.name.toLowerCase().startsWith(inputValueLower) && !this.guessedMonsters.includes(suggestion.name.toLowerCase())
       );
-      this.showSuggestions = true;
+    }
+
+    this.showSuggestions = true;
     },
     selectSuggestion(name) {
       this.inputValue = name;
