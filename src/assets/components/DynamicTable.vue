@@ -45,6 +45,7 @@
       </li>
     </ul>
 
+
     <button @click="addRow" :disabled="!isValidInput">Add to Table</button>
 
     <table>
@@ -55,7 +56,7 @@
           <th>Elements</th>
           <th>Weaknesses</th>
           <th>Size</th>
-          <th>IconColor</th>
+          <th>Icon Color</th>
           <th>First Appearance</th>
         </tr>
       </thead>
@@ -140,29 +141,35 @@ export default {
   },
   methods: {
 
-    moveUp() {
-      if (this.activeSuggestion > 0) {
-        this.activeSuggestion--;
-      } else {
-        this.activeSuggestion = this.filteredSuggestions.length - 1;
-      }
-    },
-    moveDown() {
-      if (this.activeSuggestion < this.filteredSuggestions.length - 1) {
-        this.activeSuggestion++;
-      } else {
-        this.activeSuggestion = 0;
-      }
-    },
-    selectOrSubmit() {
-      if (this.activeSuggestion !== -1) {
-        const selectedName = this.filteredSuggestions[this.activeSuggestion].name;
-        this.selectSuggestion(selectedName);
-        this.activeSuggestion = -1;
-      } else {
-        this.addRow();
-      }
-    },
+  moveUp() {
+    if (this.activeSuggestion > 0) {
+      this.activeSuggestion--;
+    } else {
+      this.activeSuggestion = this.filteredSuggestions.length - 1;
+    }
+  },
+
+  moveDown() {
+    if (this.activeSuggestion < this.filteredSuggestions.length - 1) {
+      this.activeSuggestion++;
+    } else {
+      this.activeSuggestion = 0;
+    }
+  },
+
+  selectOrSubmit() {
+    if (this.activeSuggestion !== -1) {
+      const selectedName = this.filteredSuggestions[this.activeSuggestion].name;
+      this.selectSuggestion(selectedName);
+      this.activeSuggestion = -1;
+    } else if (this.filteredSuggestions.length > 0) {
+      // If no active suggestion, but there are suggestions, add current input value
+      this.addRow();
+    } else {
+      // Handle other cases if needed
+    }
+  },
+
     
     updateDataset() {
       if (this.selectedDataset === 'all') {
@@ -190,8 +197,6 @@ export default {
         if (selectedMonster.name === this.randomMonster.name) {
           this.showModal = true;
         }
-      } else {
-        alert("Please select a monster name from the suggestions, or you have already guessed this monster.");
       }
     },
     filterSuggestions() {
@@ -423,6 +428,7 @@ th, td {
   z-index: 1;
   background-color: #fff;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  left: 175px;
 }
 
 .suggestions li {
@@ -431,7 +437,11 @@ th, td {
 }
 
 .suggestions li:hover {
-  background-color: #f1f1f1;
+  background-color: #c0c0c0;
+}
+
+.suggestions li.active {
+  background-color: #c0c0c0; /* Background color for active suggestion */
 }
 
 .solve-button {
