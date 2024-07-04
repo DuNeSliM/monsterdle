@@ -9,7 +9,7 @@
       </label>
     </div>
     <button class="solve-button" @click="revealMonster">Reveal Monster</button>
-    <h1>Dynamic Table Update</h1>
+    <h1>Monsterdle</h1>
     <h2 v-if="monsterRevealed">{{ randomMonster.name }}</h2>
     <label for="inputField">Enter monster name:</label>
     <input v-model="inputValue" type="text" id="inputField" @input="filterSuggestions">
