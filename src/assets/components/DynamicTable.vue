@@ -350,9 +350,9 @@ export default {
 }
 
 .table-container {
-  max-height: 400px; /* Fixed height for the table container */
   overflow-y: auto; /* Enable vertical scrolling */
   margin-top: 20px;
+  height: 100vh;
 }
 
 table {
