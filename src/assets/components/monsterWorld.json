@@ -236,7 +236,7 @@
       "Fire"
     ],
     "weaknesses": [
-      "Dragom",
+      "Dragon",
       "Water"
     ],
     "iconColor": [
@@ -1203,7 +1203,7 @@
     "elements": "None",
     "weaknesses": "Ice",
     "iconColor": [
-      "Gren",
+      "Green",
       "Gray",
       "Yellow"
     ],
