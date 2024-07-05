@@ -3,7 +3,7 @@
     <button class="new-guess-button" @click="newGuess">New Guess</button>
     <div class="radio-group">
       <label>
-        <input type="radio" v-model="selectedDataset" value="all"> All Monster
+        <input type="radio" v-model="selectedDataset" value="all"> All Monster(with most small Monster)
       </label>
       <label>
         <input type="radio" v-model="selectedDataset" value="world"> Monster Hunter World Monster
