@@ -48,34 +48,36 @@
 
     <button @click="addRow" :disabled="!isValidInput">Add to Table</button>
 
-    <table>
-      <thead>
-        <tr>
-          <th class="name-cell">Monster</th>
-          <th>Type</th>
-          <th>Elements</th>
-          <th>Weaknesses</th>
-          <th>Size</th>
-          <th>Icon Color</th>
-          <th>First Appearance</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="(row, index) in rows" :key="index">
-          <td :style="getBackgroundStyle(row.name)" class="monster-cell">{{ row.name }}</td>
-          <td :class="['table-cell', getCellClass(row.type, randomMonster.type)]">{{ row.type }}</td>
-          <td :class="['table-cell', getCellClass(row.elements, randomMonster.elements)]">{{ formatTypes(row.elements) }}</td>
-          <td :class="['table-cell', getCellClass(row.weaknesses, randomMonster.weaknesses)]">{{ formatTypes(row.weaknesses) }}</td>
-          <td :class="['table-cell', 'size-cell', getCellClass(row.size, randomMonster.size)]">
-            <span class="size-text">{{ row.size }}</span>
-            <span v-if="row.size > randomMonster.size" class="arrow down"></span>
-            <span v-else-if="row.size < randomMonster.size" class="arrow up"></span>
-          </td>
-          <td :class="['table-cell', getCellClass(row.iconColor, randomMonster.iconColor)]">{{ formatTypes(row.iconColor) }}</td>
-          <td :class="['table-cell', getCellClass(row.firstAppearance, randomMonster.firstAppearance)]">{{ row.firstAppearance }}</td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="table-container">
+      <table>
+        <thead>
+          <tr>
+            <th class="name-cell">Monster</th>
+            <th>Type</th>
+            <th>Elements</th>
+            <th>Weaknesses</th>
+            <th>Size</th>
+            <th>Icon Color</th>
+            <th>First Appearance</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="(row, index) in rows" :key="index">
+            <td :style="getBackgroundStyle(row.name)" class="monster-cell">{{ row.name }}</td>
+            <td :class="['table-cell', getCellClass(row.type, randomMonster.type)]">{{ row.type }}</td>
+            <td :class="['table-cell', getCellClass(row.elements, randomMonster.elements)]">{{ formatTypes(row.elements) }}</td>
+            <td :class="['table-cell', getCellClass(row.weaknesses, randomMonster.weaknesses)]">{{ formatTypes(row.weaknesses) }}</td>
+            <td :class="['table-cell', 'size-cell', getCellClass(row.size, randomMonster.size)]">
+              <span class="size-text">{{ row.size }}</span>
+              <span v-if="row.size > randomMonster.size" class="arrow down"></span>
+              <span v-else-if="row.size < randomMonster.size" class="arrow up"></span>
+            </td>
+            <td :class="['table-cell', getCellClass(row.iconColor, randomMonster.iconColor)]">{{ formatTypes(row.iconColor) }}</td>
+            <td :class="['table-cell', getCellClass(row.firstAppearance, randomMonster.firstAppearance)]">{{ row.firstAppearance }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
 
     <div v-if="showModal" class="modal">
       <div class="modal-content">
@@ -88,6 +90,7 @@
     </div>
   </div>
 </template>
+
 
 <script>
 const monstersData = require('./monster.json');
@@ -346,10 +349,15 @@ export default {
   margin-top: 10px; /* Add space above checkboxes */
 }
 
+.table-container {
+  max-height: 400px; /* Fixed height for the table container */
+  overflow-y: auto; /* Enable vertical scrolling */
+  margin-top: 20px;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
-  margin-top: 20px;
   background-color: transparent;
 }
 
@@ -484,44 +492,46 @@ th, td {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 9999;
 }
 
 .modal-content {
   background: white;
   padding: 20px;
-  border-radius: 8px;
+  border-radius: 4px;
   text-align: center;
 }
 
-.modal-content h3 {
-  margin: 0 0 20px;
+.modal h3 {
+  margin-top: 0;
 }
 
-.modal-content p {
+.modal p {
   margin: 10px 0;
 }
 
 .monster-icon {
   width: 100px;
   height: 100px;
-  margin: 10px 0;
+  object-fit: contain;
 }
 
-.modal-content button {
+.modal button {
+  margin-top: 10px;
   padding: 10px 20px;
-  background-color: #28a745;
+  background-color: #007bff;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  margin-top: 20px;
 }
 
-.modal-content button:hover {
-  background-color: #218838;
+.modal button:hover {
+  background-color: #0056b3;
 }
 </style>
+
