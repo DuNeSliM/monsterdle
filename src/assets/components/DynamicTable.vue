@@ -48,7 +48,7 @@
 
     <button @click="addRow" :disabled="!isValidInput">Add to Table</button>
 
-    <div class="table-container">
+    <div class="table-container" ref="tableContainer">
       <table>
         <thead>
           <tr>
@@ -200,8 +200,16 @@ export default {
         if (selectedMonster.name === this.randomMonster.name) {
           this.showModal = true;
         }
+        this.$nextTick(() => {
+          this.scrollTableToBottom();
+        });
       }
     },
+    scrollTableToBottom() {
+      const tableContainer = this.$refs.tableContainer;
+      tableContainer.scrollTop = tableContainer.scrollHeight;
+    },
+
     filterSuggestions() {
     if (this.inputValue === '') {
       this.filteredSuggestions = [];
